@@ -9,8 +9,8 @@ module.exports = {
 	usage: '<anime name>',
 	async execute(msg, args) {
 		console.log(args);
-		console.log(msg);
-		fetch('https://aws.random.cat/meow').then(response => response.json());
+		const { file } = await fetch('https://aws.random.cat/meow').then(response => response.json());
+		msg.channel.send(file);
 
 	},
 };
