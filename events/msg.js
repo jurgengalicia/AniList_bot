@@ -51,7 +51,7 @@ module.exports = {
 		}
 
 		try{
-			command.execute(msg, args);
+			command.execute(msg, args, commandName);
 		}
 		catch(err) {
 			console.error(err);

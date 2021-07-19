@@ -1,6 +1,7 @@
 {
 	"prefix": "?",
 	"token": "",
+	"IMDB_tok": "",
 	"insert_URL": "https://discordapp.com/oauth2/authorize?client_id=858260214435807242&scope=bot",
 	"chrome_devtools": "chrome://inspect"
 }
