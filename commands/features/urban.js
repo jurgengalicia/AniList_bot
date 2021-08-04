@@ -9,7 +9,7 @@ module.exports = {
 	name: 'urban',
 	aliases: ['ud'],
 	args: true,
-	cooldown: 3,
+	cooldown: 5,
 	description:'searches a slang (WARNING: NSFW)',
 	usage: '<slang term>',
 	async execute(msg, args) {

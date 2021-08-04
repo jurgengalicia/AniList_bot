@@ -1,8 +1,9 @@
 module.exports = {
 	name: 'ping',
-	description:'Pokes AniList',
-	cooldown: 5,
+	description:'Pokes Shiina',
+	aliases: ['p'],
+	cooldown: 1,
 	execute(msg) {
-		msg.channel.send('pong');
+		msg.channel.send('I\'m working!');
 	},
 };
