@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 
 module.exports = {
 	name: 'cat',
-	aliases: ['c', 'kitty'],
+	aliases: ['kitty'],
 	description:'gives you a cat!',
 	usage: '',
 	cooldown: 5,
