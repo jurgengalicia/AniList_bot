@@ -17,7 +17,6 @@ module.exports = {
 				msg.channel.send(`No results found for *${query}*`);
 				return;
 			}
-			console.log(result[0]);
 			const { name, id, gameplayMain, gameplayMainExtra, gameplayCompletionist, imageUrl } = result[0];
 			const gameInfo = new Discord.MessageEmbed()
 				.setColor('#0099ff')

@@ -25,6 +25,7 @@ module.exports = {
 			.setColor('#EFF00')
 			.setTitle(answer.word)
 			.setURL(answer.permalink)
+			.setFooter('https://www.urbandictionary.com/')
 			.addFields(
 				{ name: 'Definition', value: trim(answer.definition.replaceAll(/[\[\]]/g, '**'), 1024) },
 				{ name: 'Example', value: trim(answer.example.replaceAll(/[\[\]]/g, '**'), 1024) },
